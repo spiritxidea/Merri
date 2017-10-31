@@ -1,0 +1,29 @@
+
+#available-widgets .widget[id*="cryout_columns"] h4,
+#available-widgets .widget[id*="cryout_widget"] h4 {
+	background: rgba( 0, 64, 128, 0.2);
+}
+
+#available-widgets .widget[id*="cryout_social"] h4 {
+	background: rgba( 128, 64, 0, 0.2);
+}
+
+div#widgets-right #social-icons {
+	background: rgba( 128, 64, 0, 0.2); 
+}
+
+div#widgets-right #presentation-page {
+	background: rgba( 0, 64, 128, 0.2); 
+}
+
+div#widgets-right #social-icons,
+div#widgets-right #presentation-page {
+	margin-bottom: 0;
+	padding-bottom: 9px;
+}
+
+div#widgets-right .closed #social-icons,
+div#widgets-right .closed #presentation-page {
+	margin-bottom: 0;
+	padding-bottom: 0; 
+}

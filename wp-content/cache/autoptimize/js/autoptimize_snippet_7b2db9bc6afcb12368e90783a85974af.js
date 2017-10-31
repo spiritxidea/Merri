@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){$('.woocommerce .button.print').printLink();$('.woocommerce .button.print').on('printLinkError',function(event){window.open(event.currentTarget.href);});});
